@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     navLinks.forEach(function(link) {
         link.addEventListener("click", function(event) {
-            event.preventDefault(); // جلوگیری از رفتار پیش‌فرض لینک
+            event.preventDefault(); 
             
             var targetId = link.getAttribute("href").substring(1);
             var targetSection = document.getElementById(targetId);
