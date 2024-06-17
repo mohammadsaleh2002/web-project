@@ -9,14 +9,14 @@ body {
 }
 
 header {
-    background: #333;
+    background: #821111;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
 }
 
 nav {
-    background: #444;
+    background: #9e0d0d;
     color: #fff;
     padding: 1rem;
     text-align: center;
@@ -35,6 +35,11 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
+}
+
+li a:hover{
+    font-size: 40pt;
+    color: blue;
 }
 
 section {
